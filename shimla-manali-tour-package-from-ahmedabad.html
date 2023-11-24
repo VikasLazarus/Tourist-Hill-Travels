@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tourist Hill Tour And Travels - Tourist Hill.IN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="swiper/package/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .ani2 {
+        animation-name: example;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example2 {
+        0% {
+            margin-top: 0px;
+        }
+
+        50% {
+            margin-top: 20px;
+        }
+
+        100% {
+            margin-top: 0px;
+        }
+    }
+
+    .ani1 {
+        animation-name: example;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example {
+        0% {
+            margin-left: 0px;
+        }
+
+        50% {
+            margin-left: 20px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+    }
+
+    .checked {
+        color: #fd9903;
+    }
+
+    .w3-round {
+        border-radius: 10px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slide3 {
+
+        font-size: 18px;
+        background: #f1f1f1;
+
+        height: 250px;
+        width: 170px;
+        border-radius: 10px;
+    }
+
+    .slide2 {
+        text-align: center;
+        font-size: 18px;
+        background: #f1f1f1;
+        display: flex;
+        height: 250px;
+        width: 700px;
+        border-radius: 10px;
+    }
+
+    .slide1 {
+
+
+        background: #f1f1f1;
+        display: flex;
+        height: 158px;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .slide {
+        color: white;
+        padding: 6px 20px;
+        text-align: center;
+        font-size: 12px;
+        background: #424242;
+        display: flex;
+
+        width: auto;
+        border-radius: 10px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .w3-blue {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+    .w3-content {
+        max-width: 1100px;
+    }
+
+
+    .w3-red {
+        border-left: 3px solid black;
+        padding-left: 6px;
+    }
+
+    .nav {
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        z-index: 4;
+    }
+
+    .w3-content-2,
+    .w3-auto {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .w3-content-2 {
+        max-width: 1200px
+    }
+
+    .w3-auto {
+        max-width: 1200px
+    }
+
+    .tablink2:hover {
+        border-left: 3px solid black;
+        padding-left: 6px;
+    }
+
+    .w3-dropdown-click:hover {
+        background-color: white;
+    }
+</style>
+
+<body>
+
+    <div class="w3-row w3-padding w3-center w3-small" style="z-index: 4; background-color: #424242; color: white;">Save
+        50% On Your First Booking With Us. <a style="text-decoration: none;" href="/">BOOK NOW</a></div>
+    <!-- Navbar -->
+    <div class="nav" style="padding: 12px 0px;">
+        <div class="w3-content-2 w3-bar w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-none w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction1()" title="Toggle Navigation Menu">
+                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Menu / Menu_Alt_05">
+                        <path id="Vector" d="M5 17H13M5 12H19M11 7H19" stroke="#000000" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                </svg>
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-larg w3-white" style="padding-left: 12px;">
+
+                <div class="w3-large">
+
+                    <div class="w3-col" style="width: 36px; height: 36px;">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px"
+                            viewBox="0 0 200.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                            <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" fill="#B02C3E"
+                                stroke="none">
+                                <path d="M285 1918 c-101 -27 -193 -122 -215 -224 -7 -33 -10 -270 -8 -719 l3
+-670 24 -49 c31 -62 82 -114 146 -146 l50 -25 705 0 705 0 50 25 c64 32 115
+84 146 146 l24 49 3 670 c2 449 -1 686 -8 719 -22 105 -115 198 -222 224 -62
+16 -1344 15 -1403 0z m686 -475 c18 -32 53 -92 79 -133 26 -41 59 -95 74 -120
+14 -25 32 -54 39 -65 23 -37 62 -101 128 -210 l66 -110 106 -3 c59 -1 107 0
+107 2 0 3 -22 40 -48 83 -27 43 -75 122 -106 175 -31 54 -61 100 -65 102 -4 3
+-20 -17 -36 -45 -16 -27 -32 -49 -36 -49 -4 0 -21 8 -38 18 -29 16 -43 52 -21
+52 6 0 10 4 10 10 0 17 112 191 121 188 9 -3 109 -167 109 -180 0 -4 5 -8 10
+-8 6 0 10 -7 10 -15 0 -8 9 -24 20 -35 11 -11 20 -24 20 -29 0 -5 18 -37 40
+-70 22 -33 40 -62 40 -65 0 -7 101 -169 116 -187 32 -37 21 -39 -198 -39
+l-213 1 -36 62 c-66 114 -131 221 -175 289 -24 36 -44 71 -44 77 0 6 -4 11 -8
+11 -4 0 -13 12 -20 28 -6 15 -23 45 -37 67 -14 22 -31 50 -37 63 -6 12 -14 22
+-17 22 -8 0 -81 -118 -81 -131 0 -15 -34 -9 -57 10 -13 11 -23 24 -23 31 0 18
+150 260 162 260 3 0 21 -26 39 -57z m-251 -223 c0 -5 5 -10 10 -10 6 0 10 -5
+10 -10 0 -6 16 -36 35 -66 19 -30 35 -59 35 -64 0 -6 5 -10 10 -10 6 0 10 -7
+10 -15 0 -8 5 -15 10 -15 6 0 10 -5 10 -12 0 -15 140 -238 149 -238 7 0 28 36
+68 112 20 38 27 41 62 21 40 -23 39 -44 -7 -115 -9 -15 -39 -65 -67 -112 -27
+-47 -53 -86 -56 -86 -5 0 -20 23 -185 295 -43 72 -82 132 -86 133 -4 2 -8 8
+-8 13 0 5 -17 37 -39 70 l-38 61 -93 -153 c-51 -85 -102 -169 -112 -186 l-20
+-33 191 0 191 0 0 -45 0 -45 -265 0 c-152 0 -265 4 -265 9 0 13 53 115 62 119
+5 2 8 10 8 18 0 8 5 14 10 14 6 0 10 4 10 10 0 5 24 47 53 92 30 46 56 88 58
+93 2 6 42 72 88 148 l85 138 38 -60 c21 -33 38 -65 38 -71z" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <span style=" font-size: 12px; padding:5px 5px;"> <b style="color:#424242;">TOURIST HILL</b></span>
+
+                </div>
+
+            </a>
+            <div class="w3-dropdown-hover">
+                <a href="#" onclick="myFunction22()" class="w3-bar-item w3-hide-small w3-small"
+                    style="text-decoration: none; margin-top:6px;">Services & Products
+                    <svg width="15px" height="15px" style="padding-top: 6px;" id="arrow" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 9L14 14.1599C13.7429 14.4323 13.4329 14.6493 13.089 14.7976C12.7451 14.9459 12.3745 15.0225 12 15.0225C11.6255 15.0225 11.2549 14.9459 10.9109 14.7976C10.567 14.6493 10.2571 14.4323 10 14.1599L5 9"
+                            stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a>
+
+                <div class="w3-dropdown-content w3-bar-block w3-card" style="border-radius: 10px; margin-top: 42px;">
+                    <a href="#" class="w3-margin-top w3-bar-item w3-button">Link 1</a>
+                    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                    <a href="#" class="w3-margin-bottom w3-bar-item w3-button">Link 3</a>
+                </div>
+
+            </div>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-small w3-padding-larg w3-hover-white"
+                style="margin-top:8px;">Blog</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-small w3-padding-lar w3-hover-white"
+                style="margin-top:8px;">About Us</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-small w3-padding-larg w3-hover-white"
+                style="margin-top:8px;">Contect Us</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-small w3-padding-larg w3-hover-white"
+                style="margin-top:8px;">Privacy Policy</a>
+
+
+
+
+
+
+
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-small  w3-hover-white w3-right"
+                style="color: white; border-radius: 30px; background-color: #B02C3E; margin-top:8px; margin-left: 8px; margin-right: 8px;">Enquire</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-small w3-padding-larg w3-hover-white w3-right"
+                style="margin-top:8px;">Sales : +91-82194-71645</a>
+
+
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"
+            style=" border-top: #f1f1f1 solid 1px; border-bottom: #f1f1f1 solid 1px;">
+
+            <div class="w3-container">
+                <button class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Home</button>
+
+                <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Travel Package</button>
+                <div id="Demo1" class="w3-container w3-hide">
+                    <h4>Section 1</h4>
+                    <p>Some text..</p>
+                </div>
+                <button class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Destinations</button>
+                <button class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Hotels</button>
+                <button class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Adventure Activites</button>
+                <button class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Cab Booking</button>
+                <button class="w3-button w3-block w3-black w3-left-align w3-hover-none"
+                    style="margin: 18px 0px; padding:0px;">Volvo Booking</button>
+            </div>
+            <div class="w3-third" style="background-color: #f1f1f1;">
+                <div class=" w3-container" style="min-height:260px">
+                    <h3>Contect Us</h3>
+                    <p>Sales : 82194-71645</p>
+                    <p>Mail : vikasj500h@gmail.com</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Header -->
+<!--small screen header-->
+<div class="w3-hide-large w3-hide-medium" style="max-width:500px">
+    <img class="mySlides" src="https://img.freepik.com/free-photo/portrait-brunette-girl-blowing-kiss-green-eyed-lady-beret-trench-coat-posing-pink-background_197531-17648.jpg?w=740&t=st=1699708351~exp=1699708951~hmac=b950493ce907e53091d826a6b342c3623e6e96c281160ea9f552554004e216fd" style="object-fit: cover; overflow: hidden; height: 450px; width:100%">
+    <img class="mySlides" src="https://img.freepik.com/free-photo/lady-good-mood-looks-into-camera-beige-background-beautiful-smiling-woman-with-big-bright-lips-red-beret-earrings-long-coat-posing_197531-18681.jpg?w=740&t=st=1699709408~exp=1699710008~hmac=e6c3264c5f5e3fc6e4503bfc280d9a79d50c19b1fbff96bd9154234ccac496b0" style="object-fit: cover; overflow: hidden; height: 450px; width:100%">
+    <img class="mySlides" src="https://img.freepik.com/free-photo/lady-with-red-lips-smiling-beige-background-funny-young-woman-bright-beret-cute-earrings-posing-camera-isolated-backdrop_197531-18670.jpg?w=740&t=st=1699709426~exp=1699710026~hmac=951af34306480ccc00e1ca00d7c1ac38e5ebdcaed7b655860f1cd653edbe48ef" style="object-fit: cover; overflow: hidden; height: 450px; width:100%">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+<!--///-->
+    <div class="w3-row w3-content-2">
+
+
+
+
+        <div class="w3-half w3-hide-small">
+
+
+          
+
+            <script>
+                function openImg(imgName) {
+                    var i, x;
+                    x = document.getElementsByClassName("picture");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    document.getElementById(imgName).style.display = "block";
+                }
+            </script>
+
+
+<div class="w3-col l9 m8 s12">
+    <div id="Nature" class="picture w3-display-container" style="height: 400px; display:one">
+        <img class="w3-round" src="https://img.freepik.com/free-photo/lady-beige-trench-coat-is-smiling-pointing-her-fingers-pink-background-with-space-text_197531-17655.jpg?w=740&t=st=1699707806~exp=1699708406~hmac=8a567dd945988b8a3745dbf428789a879d0fbf74fddd4f5b373170f8e8d60425" alt="Nature" style="object-fit: cover; overflow: hidden; height: 400px; width:100%">
+        
+        <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Nature</div>
+    </div>
+
+    <div id="Snow" class="picture w3-display-container" style="height: 400px; display:none">
+        <img class="w3-round" src="img_snow_wide.jpg" alt="Snow" style="object-fit: cover; overflow: hidden; height: 400px; width:100%">
+        
+        <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Snow</div>
+    </div>
+
+    <div id="Mountains" class="picture w3-display-container" style="height: 400px; display:none">
+        <img class="w3-round" src="img_mountains_wide.jpg" alt="Mountains" style="object-fit: cover; overflow: hidden; height: 400px; width:100%">
+   
+        <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
+    </div>
+
+    <div id="Lights" class="picture w3-display-container" style="height: 400px; display:none">
+        <img class="w3-round" src="img_lights_wide.jpg" alt="Lights" style="object-fit: cover; overflow: hidden; height: 400px; width:100%">
+        
+        <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Northern Lights</div>
+    </div>
+
+</div>
+
+<div class="w3-col l3 m4 s12" style="padding-left: 12px;">
+    <div class="v">
+        <div class="" style="margin-bottom: 12px;">
+            <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
+                <img class="w3-round" src="https://img.freepik.com/free-photo/lady-beige-trench-coat-is-smiling-pointing-her-fingers-pink-background-with-space-text_197531-17655.jpg?w=740&t=st=1699707806~exp=1699708406~hmac=8a567dd945988b8a3745dbf428789a879d0fbf74fddd4f5b373170f8e8d60425" alt="Nature" style="height: 90px; width:90px; object-fit: cover; overflow: hidden;">
+            </a>
+        </div>
+        <div class="" style="margin-bottom: 12px;">
+            <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Snow');">
+                <img class="w3-round" src="https://img.freepik.com/free-photo/portrait-brunette-girl-blowing-kiss-green-eyed-lady-beret-trench-coat-posing-pink-background_197531-17648.jpg?w=740&t=st=1699708351~exp=1699708951~hmac=b950493ce907e53091d826a6b342c3623e6e96c281160ea9f552554004e216fd" alt="Snow" style="height: 90px; width:90px; object-fit: cover; overflow: hidden;">
+            </a>
+        </div>
+        <div class="" style="margin-bottom: 12px;">
+            <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
+                <img class="w3-round" src="https://img.freepik.com/free-photo/portrait-brunette-girl-blowing-kiss-green-eyed-lady-beret-trench-coat-posing-pink-background_197531-17648.jpg?w=740&t=st=1699708351~exp=1699708951~hmac=b950493ce907e53091d826a6b342c3623e6e96c281160ea9f552554004e216fd" alt="Mountains" style="height: 90px; width:90px; object-fit: cover; overflow: hidden;">
+            </a>
+        </div>
+        <div class="" style="margin-bottom: 12px;">
+            <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+                <img class="w3-round" src="https://img.freepik.com/free-photo/portrait-brunette-girl-blowing-kiss-green-eyed-lady-beret-trench-coat-posing-pink-background_197531-17648.jpg?w=740&t=st=1699708351~exp=1699708951~hmac=b950493ce907e53091d826a6b342c3623e6e96c281160ea9f552554004e216fd" alt="Lights" style="height: 90px; width:90px; object-fit: cover; overflow: hidden;">
+            </a>
+        </div>
+    </div>
+
+
+</div>
+        </div>
+        <div class="w3-half w3-padding">
+            <div class="w3-tag w3-large w3-round" style="background-color: #B02C3E; margin-top: 20px;">Exclusive Offer</div>
+            <h1><b>Shimla Manali Tour Package From Ahmedabad By Cab</b></h1>
+            <div class="w3-row">Rating - 
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span> ( 35 Reviews )
+        </div>
+
+<div class="w3-row">
+<div class="w3-col s12 l6 m6" style="padding: 12px 0px;">
+    <span  style="background-color: #B02C3E; color: white;" class="w3-padding w3-round fa fa-clock-o w3-small"></span><span class="w3-small"> <b style="color: #B02C3E;"> Duration</b> - 4 Nights / 5 Days</span>
+</div>
+<div class="w3-col s12 l6 m6" style="padding: 12px 0px;">
+    <span  style="background-color: #B02C3E; color: white;" class="w3-padding w3-round fa fa-hotel w3-small"></span><span class="w3-small"> <b style="color: #B02C3E;"> Best Accordion</b> - Shimla, Manali</span>
+</div>
+<div class="w3-col s12 l6 m6" style="padding: 12px 0px;">
+    <span  style="background-color: #B02C3E; color: white;" class="w3-padding w3-round fa fa-car w3-small"></span><span class="w3-small"> <b style="color: #B02C3E;"> Ac Cab</b> - Sedan</span>
+</div>
+<div class="w3-col s12 l6 m6" style="padding: 12px 0px;">
+    <span  style="background-color: #B02C3E; color: white;" class="w3-padding w3-round fa fa-image w3-small"></span><span class="w3-small"> <b style="color: #B02C3E;"> Sightseen</b> - Included</span>
+</div>
+</div>
+<div class="w3-padding w3-row w3-round" style="color: white; background-color: #B02C3E;">
+    <span style="margin-top: 4px;">Price - <span style="text-decoration: line-through;">45,000</span> 35,000</span>
+<button class="w3-right w3-button w3-small w3-round" style="color: #B02C3E; background-color: white;">Enquire</button>
+</div>
+        </div>
+    </div>
+    <!-- /Header -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction1() {
+          var x = document.getElementById("navDemo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+</body>
+
+</html>
